@@ -1,0 +1,6 @@
+<!-- movie_form.html -->
+<form method="POST">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit" class="btn">Добавить</button>
+</form>
